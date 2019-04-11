@@ -1,0 +1,47 @@
+body{
+    align-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 0;
+    text-align: center;
+}
+
+#topnavbar{
+    background-color: grey;
+    width: 100%;
+    height: 10%;
+    top:0;
+}
+
+#topnavbutton{
+    background-color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#searchbox{
+    background-color: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#videotn {
+    width: 20%;
+    height: 40%;
+    border-radius: 15px;
+}
+
+.project{
+    width: 25%;
+    height: 50%;
+    background-color: grey;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+#projectlist{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
