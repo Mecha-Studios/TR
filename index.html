@@ -4,16 +4,37 @@
         <title>Tyler Ruotolo</title>
         <link href="fun.css" rel="stylesheet">
     </head>
-    <body>
+    <body style="background-color: grey;">
         <div id="topnavbar">
-            <button id="topnavbutton" onclick="location.href = 'index.html'">Home</button>
-            <button id="topnavbutton" onclick="location.href = 'videos.html'">Videos</button>
-            <button id="topnavbutton" onclick="location.href = 'projects.html'">Projects</button>
-            <button id="topnavbutton" disabled onclick="loaction.href = 'forum.html'">Forum</button>
+            <input id="topnavbutton" type="button" onclick="location.href = 'index.html'" value="Home"/>
+            <input id="topnavbutton" type="button" onclick="location.href = 'videos.html'" value="Videos"/>
+            <input id="topnavbutton" type="button" onclick="location.href = 'projects.html'" value="Projects"/>
         </div>
-        <h2>Script OS 3.0 Beta 3 is out!!!</h2>
-        <p>Go check out Script OS 3.0 Beta 3</p>
-        <img src="Script OS 3.0 .png" style="width: 50%; height:50%; border-radius: 15px"/>
-        <script src="tr.js"></script>
+        <table>
+            <thead>
+                <h1>Featured Video</h1>
+            </thead>
+            <tbody>
+                <iframe class="videotn" width="894" height="503" src="https://www.youtube.com/embed/FAj_DC7ShfM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </tbody>
+        </table>
+        <table>
+            <thead>
+                <h1>Featured Projects</h1>
+            </thead>
+            <tbody>
+                <div class="project" onclick="location.href = 'scriptos3.0project.html'">
+                    <h1>Script OS 3.3</h1>
+                    <p>A simple browser OS concept that runs in any browser and on top of any operating system.</p>
+                    <p>© Tyler Ruotolo 2018-2020</p>
+                </div>
+                <div class="project" onclick="location.href = 'blazetousdproject.html'">
+                    <h1>Blaze to USD</h1>
+                    <p>Shows you how much real money you have in Blaze(the in app currency for StoryFire).</p>
+                    <p>© Tyler Ruotolo 2020</p>
+                </div>
+            </tbody>
+        </table>
+        <h3 style="position: absolute; bottom: 0;">© Tyler Ruotolo 2018-2020</h3>
     </body>
 </html>
