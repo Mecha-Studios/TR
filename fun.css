@@ -4,6 +4,10 @@ body{
     font-family: arial;
     align-items: center;
     align-content: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .bottomtext{
